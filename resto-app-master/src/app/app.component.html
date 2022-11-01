@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" routerLink="/">{{title}}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="add"> Add Resto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="update">update Resto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="list">List Resto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="login"> Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="register">Register</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+  <div class="footer">
+    <p>Copyright by &copy; Ravish Abbas 2022 </p>
+  </div>
+</div>
